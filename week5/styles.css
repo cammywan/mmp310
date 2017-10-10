@@ -1,0 +1,46 @@
+h1 {
+text-align: center;
+    font-size: 2em;
+    color: indianred;
+}
+
+h2 {
+text-align: center;
+    font-size: 1.6em;
+    color: indianred;
+}
+h3{
+text-align: center;
+    font-size: 1.3em;
+    color: darkblue;
+}
+input {
+display: block;
+text-align: center;
+    margin: 2% auto;
+    font-size: 1em;
+    border: 2px dotted indianred;
+    padding: 1%;
+    width: 80%;
+    
+}
+
+button {
+    margin: 4% auto;
+display: block;
+    font-size: 1.5em;
+    border: 2px solid indianred;
+    background-color: black;
+    color: indianred;
+}
+button:hover {
+    color: yellow;
+}
+p{
+    font-size: 1.3em;
+    color: dimgrey;
+    width: 800px;
+    margin: 0 auto;
+    line-height: 1.5em;
+    
+}
