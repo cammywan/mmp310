@@ -14,13 +14,12 @@ submit.onclick = function() {
             keyword[i]=keyword.toLowerCase[i]; // change odd numbers characters of keyword to lower case
         }
     }
-    return keyword;
     
 
     for (var i = 0; i<= Number(length) - keyword.length; i++){
         suffix += chars[a+i];
     }
-    return suffix; // suffix is starting from a random char of chars and with a certain number of characters in a row
+ // suffix is starting from a random char of chars and with a certain number of characters in a row
     
     password.innerText =keyword + suffix;
     
