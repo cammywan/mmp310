@@ -1,5 +1,5 @@
 submit.onclick = function() {
-    var keyword = document.getElementById("keyword");
+    var keyword = document.getElementById("keyword").value;
     var length = document.getElementById("length");
     var chars = "abcdefghijklmnopqrstuvwxyz1234567890";
     var suffix="";
