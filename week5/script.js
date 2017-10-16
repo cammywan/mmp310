@@ -5,7 +5,7 @@ submit.onclick = function() {
     var suffix="";
     var str="";
     
-    var a = Math.floor(Math.random() * 28);
+    var a = Math.floor(Math.random() * chars.length);
    
     for (var i = 0; i<= keyword.length-1; i++){
         if (i%2 == 0){
@@ -20,11 +20,10 @@ submit.onclick = function() {
     
 
     for (var i = 0; i<= Number(length) - keyword.length-1; i++){
-        suffix += chars[a+i];
+        suffix += chars[a+i%chars.length];
     }
  // suffix is starting from a random char of chars and with a certain number of characters in a row
-    console.log(keyword);
-    console.log(length);
+
     password.innerText =str + suffix;
     
      
