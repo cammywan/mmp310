@@ -5,7 +5,6 @@ submit.onclick = function() {
     var suffix="";
     var str="";
     
-    var a = Math.floor(Math.random() * chars.length);
    
     for (var i = 0; i<= keyword.length-1; i++){
         if (i%2 == 0){
@@ -20,7 +19,8 @@ submit.onclick = function() {
     
 
     for (var i = 0; i<= Number(length) - keyword.length-1; i++){
-        suffix += chars[a+i%chars.length];
+        var a = Math.floor(Math.random() * chars.length);
+        suffix += chars[a];
     }
  // suffix is starting from a random char of chars and with a certain number of characters in a row
 
