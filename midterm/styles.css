@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|News+Cycle|Caveat');
+
+body{
+background-color: #ffdda1;
+}
+
+
+
+input {
+display: block;
+text-align: center;
+    margin: 2% auto;
+    font-size: 1em;
+    border: 4px solid #EDB230;
+    padding: 1%;
+    width: 300px;
+    color: #E77728;
+    font-family: 'News Cycle', sans-serif;
+    font-size: 1.3em;
+}
+
+.card{
+    display:inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border: 2px solid #EDB230;
+    background-color: #F8C537;
+}
+.card:hover{
+background-color: #E77728;
+}
+
+img{
+    
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-size: 1.8em;
+    color: black;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    color: #E77728;
+    
+}
+
+h3{
+    font-family: 'News Cycle', sans-serif;
+    margin-left: 2%;
+   
+}
+
+#game{
+width: 900px;
+
+padding-left: 160px;
+    margin: 0 auto;
+}
+
+h2{
+    font-size: 1.3em;
+    width: 600px;
+    margin: 0 auto;
+    line-height: 1.8em;
+    text-align: center;
+    font-family: 'News Cycle', sans-serif;
+    color: #E77728;
+}
