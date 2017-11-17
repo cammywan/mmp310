@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|News+Cycle|Caveat');
+
+h2{
+    font-size: 1.4em;
+    color: #7B727A;
+    width: 600px;
+    margin: 0 auto;
+    line-height: 1.8em;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+        padding-bottom: 2%;
+}
+p{
+    font-size: 1.3em;
+    color: #7B727A;
+    width: 600px;
+    margin: 0 auto;
+    line-height: 1.8em;
+    text-align: center;
+    font-family: 'News Cycle', sans-serif;
+        padding-bottom: 2%;
+    font-weight: 600;
+}
+
+div {
+    margin-bottom: 6%;
+    border: 2px solid #444;
+    background-color: peachpuff;
+}
+
+
+
+h1 {
+    font-size: 1.8em;
+    color: #614E6B;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    
+}
+
+h3{
+    font-family: 'News Cycle', sans-serif;
+    margin-left: 2%;
+    color: cadetblue;
+}
+
+body{
+    background-color: #EEE6CF;
+}
+
