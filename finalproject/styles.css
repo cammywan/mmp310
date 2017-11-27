@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|News+Cycle|Caveat');
+
+h2{
+    font-size: 1.4em;
+    color: #7B727A;
+    width: 600px;
+    margin: 0 auto;
+    line-height: 1.8em;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+        padding-bottom: 2%;
+}
+p{
+    font-size: 1.3em;
+    color: #614E6B;
+    width: 600px;
+    margin: 0 auto;
+    line-height: 1.8em;
+    text-align: center;
+    font-family: 'News Cycle', sans-serif;
+        padding-bottom: 2%;
+    font-weight: 600;
+}
+
+
+
+
+h1 {
+    font-size: 1.8em;
+    color: #614E6B;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    
+}
+
+h3,h4{
+    font-family: 'News Cycle', sans-serif;
+    margin-left: 2%;
+    color: #614E6B;
+}
+
+
+#selectpet {
+	height:1200px;
+	background: #C7B1CF;
+	text-align: center;
+ }
+
+#selectsize {
+ 	height: 1200px;
+ 	background: #EBC5D1;
+ 	text-align: center;
+ }
+
+ #selectsex {
+ 	height: 1200px;
+ 	background: #E5DFCE;
+ 	text-align: center;
+ }
+
+#inputlocation{
+    height: 1200px;
+ 	background: #B4DBE5;
+ 	text-align: center;
+}
+
+ #petcontainer {
+ 	height: 1200px;
+/* 	width: 100%;*/
+ 	text-align: center;
+ 	padding:50px;
+ 	background: #EEE6CF;
+ 	overflow:scroll;
+
+ 
+ }
+
+.match {
+	width: 100%;
+	text-align: center;
+}
+
+button {
+	width: 30%;
+	border-radius: 15px;
+	padding:10px;
+	background-color:#C7B1CF;
+	color:#614E6B;
+	font-size: 1.4em;
+    font-family: 'News Cycle', sans-serif;
+}
+
+button:hover{
+    background-color: white;
+}
+img {
+	margin-right:5px;
+}
+
+select,input {
+ 		background:transparent;
+ 		border: 5px solid #665270;
+ 		border-radius:15px;
+ 		box-shadow: none;
+ 		height:70px;
+        width: 400px;
+ 		margin:200px;
+ 	    padding: 5px;
+    padding-left: 30px;
+ 	    font-family:'Abril Fatface', cursive;
+ 	    font-size:20px;
+ 	    text-transform: uppercase;
+ 	    color:#665270;
+ 	    cursor: pointer;
+ 	    -webkit-appearance:none;
+    
+ }
+
+input::-webkit-input-placeholder {
+color: #614E6B;
+}
+
+ label {
+ 	font-family:'Abril Fatface', cursive;
+ 	font-size:1.6em;
+     color: #614E6B;
+
+
+ }
+
+select:focus {
+ 	outline:none;
+ }
+select:hover {
+ 	outline:none;
+    background-color: white;
+ }
+
+ option {
+ 	padding:5px;
+ 	line-height: 10px;
+ 	font-family:'Abril Fatface', cursive;
+ 	font-style: 20px;
+ }
