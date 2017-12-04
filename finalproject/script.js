@@ -118,7 +118,7 @@ $("#inputlocation").on("change", function( e ) {
 animalApp.getPet = function(){
 
 	$.ajax({
-		url:'http://api.petfinder.com/pet.getRandom',
+		url:'https://api.petfinder.com/pet.getRandom',
 		type: 'GET',
 		data: {
 			key: animalApp.key,
