@@ -2,7 +2,7 @@
 
 h2{
     font-size: 1.4em;
-    color: #7B727A;
+    color: #614E6B;
     width: 600px;
     margin: 0 auto;
     line-height: 1.8em;
@@ -11,7 +11,7 @@ h2{
         padding-bottom: 2%;
 }
 p{
-    font-size: 1.3em;
+    font-size: 1.4em;
     color: #614E6B;
     width: 600px;
     margin: 0 auto;
@@ -30,7 +30,7 @@ h1 {
     color: #614E6B;
     text-align: center;
     font-family: 'Abril Fatface', cursive;
-    
+    padding-top: 20%;
 }
 
 h3,h4{
@@ -38,7 +38,16 @@ h3,h4{
     margin-left: 2%;
     color: #614E6B;
 }
-
+h3{
+font-size: 1.2em;
+    font-weight: 700;
+    padding: 0 10%;
+}
+#intro {
+	height:1200px;
+	background: #EBC5D1;
+	text-align: center;
+ }
 
 #selectpet {
 	height:1200px;
@@ -69,7 +78,7 @@ h3,h4{
 /* 	width: 100%;*/
  	text-align: center;
  	padding:50px;
- 	background: #EEE6CF;
+ 	background: #C7B1CF;
  	overflow:scroll;
 
  
@@ -81,17 +90,20 @@ h3,h4{
 }
 
 button {
-	width: 30%;
 	border-radius: 15px;
-	padding:10px;
-	background-color:#C7B1CF;
-	color:#614E6B;
-	font-size: 1.4em;
+    margin-top: 3%;
+	padding:1% 3%;
+	background-color:#614E6B;
+	color:#ffffff;
+	font-size: 1.6em;
     font-family: 'News Cycle', sans-serif;
+    font-weight: 500;
 }
 
 button:hover{
     background-color: white;
+    color: #614E6B;
+    font-weight: 600;
 }
 img {
 	margin-right:5px;
@@ -106,13 +118,13 @@ select,input {
         width: 400px;
  		margin:200px;
  	    padding: 5px;
-    padding-left: 30px;
+        padding-left: 10%;
  	    font-family:'Abril Fatface', cursive;
- 	    font-size:20px;
- 	    text-transform: uppercase;
+ 	    font-size:1.5em;
  	    color:#665270;
  	    cursor: pointer;
  	    -webkit-appearance:none;
+        margin-top: 30%;
     
  }
 
@@ -122,7 +134,7 @@ color: #614E6B;
 
  label {
  	font-family:'Abril Fatface', cursive;
- 	font-size:1.6em;
+ 	font-size:1.8em;
      color: #614E6B;
 
 
@@ -142,3 +154,4 @@ select:hover {
  	font-family:'Abril Fatface', cursive;
  	font-style: 20px;
  }
+

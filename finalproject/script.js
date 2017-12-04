@@ -52,7 +52,18 @@ animalApp.init = function(){
 
 
 
-// Using smooth scroll to reach each new div 
+//scroll to reach each new div 
+$("#ready").on("click", function( e ) {
+    
+    e.preventDefault();
+
+    $("html, body").animate({ 
+        scrollTop: $('#selectpet').offset().top 
+    }, 800);
+
+	//$("html, body").animate({scrollTop: "1500px"});
+    
+});
 
 $("#selectpet").on("change", function( e ) {
     
@@ -136,7 +147,7 @@ animalApp.displayPet = function(data){
 
 	$('#petcontainer').empty();
 
-	var name = $('<h2>').text(data.name["$t"]);
+	var name = $('<h1>').text(data.name["$t"]);
 	var image = $('<img>').attr('src', data.media.photos.photo[2].$t);
 	var breed = $('<h3>').text(data.breeds.breed.$t);
 	var sex = $('<h3>').text(data.sex["$t"]);
