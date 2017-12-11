@@ -154,10 +154,16 @@ animalApp.displayPet = function(data){
 	var age = $('<h3>').text(data.age["$t"]);
 	var description = $('<h3>').text(data.description["$t"]);
 	var contact = $('<h4>').text(data.contact.email["$t"]);
+    var button = $('<button>').attr('id','new').text("Start New");
 
 
-
-	$('#petcontainer').append(name, image, breed, sex, age, description, contact);
+	$('#petcontainer').append(name, image, breed, sex, age, description, contact, button);
+    
+    $('#new').click(function() {
+    location.reload();
+    window.scrollTo(0, 0);
+  
+});
 
 
 }
